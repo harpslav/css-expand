@@ -1,0 +1,13 @@
+*  {
+     box-sizing: border-box;
+}
+.box {
+    width: 50%;
+    float: left;
+/*    display: inline-block; ale dodaje white-space*/
+    font-size: 24px;
+    padding: 20px;
+    border: 50px solid red;
+/*    box-sizing: border-box;    */
+}
+
