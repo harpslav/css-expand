@@ -1,0 +1,24 @@
+#obrazek1 {
+    float: left;
+}
+#obrazek2 {
+    float: right;
+}
+  
+}
+.przyklad {
+    background-color: red;
+}
+/*
+body :last-child {
+ clear: both;   
+}*/
+/*
+p:last-child {
+ clear: both; */
+
+p:last-of-type{
+    background-color: yellow;
+    clear: both;
+    text-align: justify;
+}
