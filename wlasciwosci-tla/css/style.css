@@ -1,0 +1,17 @@
+#tlo {
+     background-image: url("../images/goat.jpg");
+     background-color: green;
+    background-repeat: no-repeat;
+    background-position: center center;
+/*    background-size: contain;*/
+    background-attachment: fixed;
+    background-size: 30%;
+   
+}
+
+/*
+background-image {
+    opacity: 0.5;
+dać w osobnym kontenerze!!!
+*/
+}
