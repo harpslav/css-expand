@@ -1,0 +1,45 @@
+/*
+* {box-sizing: border-box;
+}
+.box {
+    width: 25%;
+    border: 1px solid orange;
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+    height: 600px;
+}
+
+
+@media all and (max-width: 760px) {
+    .box {
+        width: 50%;
+    }
+}
+*/
+
+
+
+* {box-sizing: border-box;
+}
+.box {
+    width: 100%;
+    border: 1px solid orange;
+    font-size: 24px;
+    float: left;
+    padding: 20px;
+    height: 600px;
+}
+
+
+@media (min-width: 760px) {
+    .box {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1062px) {
+    .box {
+        width: 25%;
+    }
+}
