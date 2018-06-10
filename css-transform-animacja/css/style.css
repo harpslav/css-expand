@@ -1,0 +1,54 @@
+img {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 50px;
+    transition: all 0.9s;
+
+}
+
+div {
+    border: 5px solid red;
+    width: 500px;
+    height: 500px;
+/*    transition: all 0.7s;*/
+}
+
+.transform-rotate img:hover {
+    transform: rotate(360deg);
+    transform-origin: top left;
+}
+
+.transform-translate img:hover {
+    transform: translate(300px, -200px);
+}
+
+.transform-scale img:hover {
+    transform: scale(1.5);
+    overflow: hidden;
+    transform-origin: top left;
+}
+
+.transform-scale {
+    overflow: hidden;
+}
+
+@keyframes animation-example {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.5);
+    }
+}
+
+.animation img {
+/*
+    animation-name: animation-example;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+*/
+    
+    animation: animation-example 1s infinite ease-in;
+    transform-origin: top left;
+}
